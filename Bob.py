@@ -30,6 +30,13 @@ class car(vehicle):
         
     def display_info(self):
       return super().display_info() + f" - {self.seating_capacity} seats"
+  
+class bike(vehicle):
+    def __init__(self,brand,model,year,rental_price_per_day,engine):
+        super().__init__(brand,model,year,rental_price_per_day)
+        self.engine=engine
+        
+
         
 
 
