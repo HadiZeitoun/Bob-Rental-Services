@@ -7,7 +7,8 @@ class vehicle:
         self.year=year
         self.__rental_price_per_day=rental_price_per_day
 
-
+def display_info()
+    return f"{self.brand} {self.model} ({self.year}) - ${self.__rental_price_per_day}/day"
 
     
 
