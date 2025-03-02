@@ -14,6 +14,11 @@ def display_info()
 def calculate_cost(self,days):
     return days*self.__rental_price_per_day 
 
+class car(vehicle):
+    def __init__(self,brand,model,year,rental_price_per_day,seating_capacity):
+        super().__init__(brand,model,year,rental_price_per_day)
+        self.seating_capacity=seating_capacity
+
     
 
         
