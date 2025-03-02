@@ -15,7 +15,13 @@ def calculate_cost(self,days):
     return days*self.__rental_price_per_day
 
 def get_price(self):
-    return self.__rental_price_per_day 
+    return self.__rental_price_per_day
+
+def set_price(self,new_price):
+    if new_price>0:
+        self.__rental_price_per_day=new_price
+    else:
+        print("Error: Price must be positive") 
 
 class car(vehicle):
     def __init__(self,brand,model,year,rental_price_per_day,seating_capacity):
