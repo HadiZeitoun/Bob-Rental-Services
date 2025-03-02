@@ -52,6 +52,9 @@ days_car = 3
 days_bike = 5
 print(f"\n{car1.brand} {car1.model} rental for {days_car} days: ${car1.calculate_cost(days_car)}")
 print(f"{bike1.brand} {bike1.model} rental for {days_bike} days: ${bike1.calculate_cost(days_bike)}")
+
+car1.set_price(55)
+print(f"\nNew price for {car1.brand} {car1.model}: ${car1.get_price()}/day")
     
     
 
