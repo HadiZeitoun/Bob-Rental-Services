@@ -10,6 +10,10 @@ class vehicle:
 def display_info()
     return f"{self.brand} {self.model} ({self.year}) - ${self.__rental_price_per_day}/day"
 
+
+def calculate_cost(self,days):
+    return days*self.__rental_price_per_day 
+
     
 
         
