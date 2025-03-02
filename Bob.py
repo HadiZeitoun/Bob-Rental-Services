@@ -38,6 +38,11 @@ class bike(vehicle):
     
     def display_info(self):
         return super().display_info() + f" - Engine: {self.engine}"
+    
+def display(vehicle):
+    vehicle.display_info()
+    
+    
 
         
 
