@@ -28,6 +28,9 @@ class car(vehicle):
         super().__init__(brand,model,year,rental_price_per_day)
         self.seating_capacity=seating_capacity
         
+    def display_info(self):
+      return super().display_info() + f" - {self.seating_capacity} seats"
+        
 
 
     
