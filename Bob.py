@@ -47,6 +47,11 @@ bike1 = bike("Yamaha", "R1", 2019, 30, "998cc")
 
 display(car1)
 display(bike1)
+
+days_car = 3
+days_bike = 5
+print(f"\n{car1.brand} {car1.model} rental for {days_car} days: ${car1.calculate_cost(days_car)}")
+print(f"{bike1.brand} {bike1.model} rental for {days_bike} days: ${bike1.calculate_cost(days_bike)}")
     
     
 
